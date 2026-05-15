@@ -1,0 +1,27 @@
+# Core computation
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+statsmodels>=0.14.0
+
+# GARCH / volatility modeling
+arch>=5.0.0
+scikit-learn>=1.3.0
+
+# Data sources (pick at least one)
+tushare>=1.4.0        # A-share market data (需要 TUSHARE_TOKEN)
+twelve-data>=1.0.0   # Global market data (需要 TWELVE_DATA_KEY)
+yfinance>=0.2.0       # Yahoo Finance free alternative
+akshare>=1.12.0       # Eastern Fortune (backup, no API key)
+
+# NLP / sentiment
+transformers>=4.30.0  # HuggingFace (FinBERT sentiment)
+torch>=2.0.0          # PyTorch backend
+requests>=2.31.0      # HTTP client
+
+# Charting
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+python-dateutil>=2.8.0

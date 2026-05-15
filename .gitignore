@@ -1,0 +1,42 @@
+# Credentials (NEVER commit these)
+.env
+*.env
+*.key
+api_keys.json
+tokens.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data & cache
+*.csv
+*.parquet
+*.feather
+.cache/
+.garch_cache/
+hermes/
+.mcp/
+
+# Charts (generated)
+*.png
+*.jpg
+*.pdf
+papers/figures/
+cron/output/
+
+# OS
+.DS_Store
+Thumbs.db
